@@ -3,7 +3,8 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.nivikundem.org</groupId>
-	<artifactId>maven-test</artifactId>
+	<!-- <artifactId>maven-test</artifactId> -->	
+	<artifactId>mulemaven-testapplicationnk</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>mule</packaging>
 	<name>MuleMavenGitJenkins</name>
@@ -52,7 +53,7 @@
 			    <configuration>
 			        <muleVersion>${mule.version}</muleVersion>
 			        <deploymentType>cloudhub</deploymentType>
-			        <applicationName>${artifactId}-${version}</applicationName>
+			       <!--  <applicationName>${artifactId}-${version}</applicationName> -->
 			        <username>${cloudhub.username}</username>
 			        <password>${cloudhub.password}</password>
 			        <workerType>Micro</workerType>
