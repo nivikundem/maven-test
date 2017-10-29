@@ -10,6 +10,6 @@ http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/cor
     <munit:test name="maven-test-test-suite-maven-testFlowTest" description="Test">
         <flow-ref name="maven-testFlow" doc:name="Flow-ref to maven-testFlow"/>
         <logger message="#[payload]" level="INFO" doc:name="Logger"/>
-        <munit:assert-on-equals message="#[payload] is not NK" expectedValue="#['NK']" actualValue="#[payload]" doc:name="Assert Equals"/>
+        <munit:assert-on-equals message="#[payload] is not Babycham" expectedValue="#['Babycham']" actualValue="#[payload]" doc:name="Assert Equals"/>
     </munit:test>
 </mule>
